@@ -1,4 +1,4 @@
-package matias.shopping_promotion_mvc_php.com.shopping;
+package php.matias.com.shopping;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

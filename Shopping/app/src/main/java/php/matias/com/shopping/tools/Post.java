@@ -1,4 +1,4 @@
-package matias.shopping_promotion_mvc_php.com.shopping.tools;
+package php.matias.com.shopping.tools;
 
 /**
  * Created by Matias on 11/06/2015.

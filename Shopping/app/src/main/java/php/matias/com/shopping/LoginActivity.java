@@ -1,13 +1,16 @@
-package matias.shopping_promotion_mvc_php.com.shopping;
+package php.matias.com.shopping;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
-import matias.shopping_promotion_mvc_php.com.shopping.servicios.ServiceLogin;
+import php.matias.com.shopping.servicios.ServicioLogin;
+
 
 public class LoginActivity extends Activity {
     private EditText edtEmail;
@@ -39,8 +42,18 @@ public class LoginActivity extends Activity {
             public void onClick(View v) {
                 String email = edtEmail.getText().toString();
                 String pass = edtPass.getText().toString();
-                ServiceLogin.accionLogin(email, pass);
+                ServicioLogin.accionLogin(email, pass);
             }
         });
+    }
+
+    public void loginOK(String mensaje){
+        Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void loginError(String mensaje){
+        Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show();
     }
 }

@@ -1,4 +1,4 @@
-package matias.shopping_promotion_mvc_php.com.shopping.servicios;
+package php.matias.com.shopping.servicios;
 
 /**
  * Created by Matias on 11/06/2015.
@@ -15,12 +15,8 @@ import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.widget.ImageView;
 import android.widget.Toast;
-import com.google.android.maps.GeoPoint;
-import com.google.android.maps.OverlayItem;
-import com.shopping_promotion_mvc_php.MapaActivity;
-import com.shopping_promotion_mvc_php.R;
-import com.shopping_promotion_mvc_php.tools.Post;
-import com.shopping_promotion_mvc_php.tools.Utils;
+
+/*
 
 public class ServiciosPromocionLocation {
     final Handler handlePromocion = new Handler();
@@ -151,4 +147,4 @@ public class ServiciosPromocionLocation {
     // }
     // } //FIN Llamada a Servidor Web PHP
 }
-
+*/
